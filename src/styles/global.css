@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Star Jedi', arial;
+    box-sizing: border-box;
+}
+
+#app {
+    display: block;
+}
