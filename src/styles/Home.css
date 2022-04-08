@@ -1,2 +1,39 @@
 @import url(vars.css);
 
+.bg-image{
+    display: flex;
+    background-image: url("../assets/img/wars.jpg");    
+    background-size: "cover";
+    background-repeat: "no-repeat";
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-sw {
+    margin: 0;
+    
+    background-color: var(--color-bg);
+    color: var(--yellow-title-sw);
+    font-weight: var(--weigth);
+    justify-self: center;
+}
+
+.card-films {
+    background-color: var(--color-bg);
+}
+
+.ul-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25rem;
+}
+
+.ul-list__info {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: var(--yellow-title-sw);
+}

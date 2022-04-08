@@ -1,0 +1,72 @@
+@import url(vars.css);
+
+.main-nav {
+    display: flex;
+    height: 60px;
+    background-color: black;
+}
+
+.navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    align-items: center;
+    color: var(--yellow);
+}
+
+.Link {
+    color: var(--yellow-saber);
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.navbar-right {
+    display: flex;
+    width: 1000%;
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+    margin: 0;
+}
+
+.githubRepo {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-github {
+    list-style: none;
+}
+
+
+.container__github--img {
+    color: aliceblue;
+    transform: scale(.4);
+}
+
+@media (max-width: 768px) {
+    .navbar-right{
+        margin-left: 40px;
+    }
+    .Link{
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .navbar-right{
+        margin-left: 0;
+    }
+    .Link{
+        padding: 0.5rem;
+    }
+}
+

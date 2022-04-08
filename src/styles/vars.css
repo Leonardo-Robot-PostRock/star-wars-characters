@@ -9,5 +9,13 @@
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
-    --font: 'Star Jedi', arial;
+    --font: 'Cascadia Code', sans-serif;
+    --weigth: 400;
+    --color-bg: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    font-weight: var(--weigth);
 }
