@@ -10,9 +10,8 @@
     align-items: center;
 }
 
-.title-sw {
+.sw{
     margin: 0;
-    
     background-color: var(--color-bg);
     color: var(--yellow-title-sw);
     font-weight: var(--weigth);
@@ -23,17 +22,3 @@
     background-color: var(--color-bg);
 }
 
-.ul-list {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25rem;
-}
-
-.ul-list__info {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    color: var(--yellow-title-sw);
-}

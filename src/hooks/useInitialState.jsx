@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-function useInitialState(initialState) {
+const useInitialState = () => {
   const [showCard, setShowCard] = useState(false);
 
   const handleClick = () => {
     setShowCard(!showCard);
   };
+  return handleClick;
+};
 
-  return { showCard, handleClick };
-}
+export { useInitialState };

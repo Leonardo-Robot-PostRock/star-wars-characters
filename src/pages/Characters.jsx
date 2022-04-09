@@ -5,10 +5,9 @@ const Characters = () => {
         <>
         <div className="main-container">
         <h1>Characters</h1>
-        <div className="card-films">
+        <div className="card-characters">
           <ul>
             <li>Name</li>
-            
             <li>height</li>
             <li>mass</li>
             <li>hair_color</li>

@@ -2,13 +2,14 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
 import Home from "../pages/Home";
-import AppContext from "../context/AppContext";
 import Characters from "../pages/Characters";
 import "../styles/App.css";
 
-function App() {
+
+function App() { 
+
   return (
-    <AppContext.Provider value={""}>
+    <React.Fragment>
       <BrowserRouter basename="/">
         <Layout>
           <Routes>
@@ -17,7 +18,7 @@ function App() {
           </Routes>
         </Layout>
       </BrowserRouter>
-    </AppContext.Provider>
+    </React.Fragment>
   );
 }
 
