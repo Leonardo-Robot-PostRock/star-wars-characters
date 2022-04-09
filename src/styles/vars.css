@@ -6,9 +6,9 @@
     --green-saber: ##12974d;
     --blue-saber: #00a0ff;
     --white-saber: #ffffff;
-    --sm: 14px;
-    --md: 16px;
-    --lg: 18px;
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
     --font: 'Cascadia Code', sans-serif;
     --weigth: 400;
     --color-bg: rgba(0, 0, 0, 0.8);

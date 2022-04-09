@@ -2,8 +2,10 @@
 
 .main-nav {
     display: flex;
-    height: 60px;
+    height: 4rem;
     background-color: black;
+    position: fixed;
+    width: 100%;
 }
 
 .navigation {
@@ -19,23 +21,24 @@
     color: var(--yellow-saber);
     text-decoration: none;
     font-family: var(--font);
-    font-size: 1.6rem;
+    font-size: var(--sm);
     font-weight: 400;
     padding: 1rem;
+    z-index: 2;
 }
 
 .navbar-right {
     display: flex;
-    width: 1000%;
+    width: 100%;
     justify-content: end;
     align-items: center;
-    height: 60px;
+    height: 4rem;
     margin: 0;
 }
 
 .githubRepo {
     display: flex;
-    height: 60px;
+    height: 6rem;
     justify-content: center;
     align-items: center;
 }
@@ -52,7 +55,7 @@
 
 @media (max-width: 768px) {
     .navbar-right{
-        margin-left: 40px;
+        margin-left: 4rem;
     }
     .Link{
         font-size: 1.2rem;
