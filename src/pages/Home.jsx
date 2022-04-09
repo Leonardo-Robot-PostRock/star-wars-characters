@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import MovieDetail from "../components/MovieDetail";
 import useGetData from "../utils/useGetData";
 import "../styles/Home.css";
@@ -11,12 +11,18 @@ const Home = () => {
   return (
     <div className="main-container bg-image">
       <h1 className="sw">
-        Welcome, in this section you can see some movies of star wars
+        Welcome!!! in this section you can see some movies of star wars
       </h1>
-      {movies.length === 0 && <h1>Loading...</h1>}
-      {movies.map((title, index) => 
+      {movies.length === 0 && (
+        <div className="container-loading">
+          <h1 className="loading">
+            <strong>Loading</strong>
+          </h1>
+        </div>
+      )}
+      {movies.map((title, index) => (
         <MovieDetail key={index} results={title} />
-        )}
+      ))}
     </div>
   );
 };

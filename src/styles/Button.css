@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--color-bg);
+    color: var(--yellow-title-sw);
+    font-weight: var(--weigth);
+    border-radius: 0.4rem;
+    border: none;
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+    justify-self: center;
+    align-self: center;
+}

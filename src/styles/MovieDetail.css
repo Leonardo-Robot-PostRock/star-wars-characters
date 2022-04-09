@@ -1,14 +1,49 @@
+@import url(vars.css);
+
+.card-main {
+    background-color: var(--color-bg);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 20rem 20rem;
+    place-content: center;
+}
+
 .ul-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 30rem, 30rem, 30rem);
+    grid-gap: 1rem;
+    place-content: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25rem;
+    padding: 0.2rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 .ul-list__info {
-    margin: 0;
+    margin: 1rem;
     padding: 0;
     width: 100%;
     color: var(--yellow-title-sw);
+}
+
+.container-description {
+    display: grid;
+    justify-content:center;
+}
+
+.description {
+    color: var(--yellow-title-sw);
+    overflow: hidden;
+    z-index: 1;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .card-main {
+        grid-template-columns: 1fr;
+    }
+    .ul-list{
+        justify-self: center;
+    }
 }

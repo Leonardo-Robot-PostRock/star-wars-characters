@@ -14,6 +14,9 @@ function useGetData(API) {
     }
     fetchData();
   }, [API]);
+  console.log("====================================");
+  console.log("Desde useGet", info);
+  console.log("====================================");
   return info;
 }
 
