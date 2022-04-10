@@ -38,7 +38,7 @@
 
 .githubRepo {
     display: flex;
-    height: 6rem;
+    height: 4rem;
     justify-content: center;
     align-items: center;
 }

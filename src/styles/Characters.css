@@ -1,0 +1,14 @@
+@import url(vars.css);
+
+.main-characters {
+    display: flex;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.characters-title {
+    margin: 0;
+    margin-top: 4rem;
+    color: var(--yellow-title-sw);
+}

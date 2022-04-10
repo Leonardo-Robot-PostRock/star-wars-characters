@@ -8,8 +8,9 @@ function useGetData(API) {
     function getFetchUrl() {
       return API;
     }
+
     async function fetchData() {
-      const response = await axios.get(getFetchUrl());
+      const response = await axios(getFetchUrl());
       setInfo(response.data.results);
     }
     fetchData();

@@ -1,25 +1,27 @@
-import React from 'react';
+import React from "react";
+import DetailCharacters from "../components/DetailCharacters";
+import "../styles/Characters.css";
+import useGetData from "../utils/useGetData";
+
+const API = process.env.REACT_APP_CHARACTERS;
 
 const Characters = () => {
-    return (
-        <>
-        <div className="main-container">
-        <h1>Characters</h1>
-        <div className="card-characters">
-          <ul>
-            <li>Name</li>
-            <li>height</li>
-            <li>mass</li>
-            <li>hair_color</li>
-            <li>skin_color</li>
-            <li>eye_color</li>
-            <li>birth_year</li>
-            <li>gender</li>
-          </ul>
+  const characters = useGetData(API);
+  return (
+    <div className="main-characters" >
+      <h1 className="characters-title">Star wars characters</h1>
+      {characters.length === 0 && (
+        <div className="container-loading">
+          <h1 className="container-loading-two">
+            <strong>Loading</strong>
+          </h1>
         </div>
-      </div>
-        </>
-    );
-}
+      )}
+      {characters.map((characters, index) => (
+        <DetailCharacters results={characters} key={index} />
+      ))}
+    </div>
+  );
+};
 
 export default Characters;

@@ -4,7 +4,7 @@
     background-color: var(--color-bg);
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: 20rem 20rem;
+    grid-template-columns: 20rem 30rem;
     place-content: center;
 }
 
@@ -28,7 +28,7 @@
 
 .container-description {
     display: grid;
-    justify-content:center;
+    justify-content: center;
     padding: 1rem;
 }
 
@@ -38,11 +38,13 @@
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+
     .card-main {
         grid-template-columns: 1fr;
     }
-    .ul-list{
+
+    .ul-list {
         justify-self: center;
     }
 }
