@@ -1,14 +1,46 @@
 @import url(vars.css);
 
-.main-characters {
-    display: flex;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container {
+  height: max-content;
+}
+
+.content {
+  padding: 0 1.5em;
+  box-sizing: border-box;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: block;
+  width: 100vw;
+  object-fit: fill;
+  height: 100vh;
+  transition: opacity 1s ease;
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
 }
 
 .characters-title {
-    margin: 0;
-    margin-top: 4rem;
-    color: var(--yellow-title-sw);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  color: var(--yellow-title-sw);
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
 }

@@ -14,7 +14,10 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<Home handleClick={handleClick} />} />
-            <Route path="characters" element={<Characters />} />
+            <Route
+              path="characters"
+              element={<Characters />}
+            />
           </Routes>
         </Layout>
       </BrowserRouter>
