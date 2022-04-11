@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import DetailCharacters from "../components/DetailCharacters";
+import grogu from "../assets/img/grogu.png";
 import "../styles/Characters.css";
 import useGetData from "../utils/useGetData";
 import { useEffect, useRef, useState } from "react";
@@ -50,10 +51,9 @@ const Characters = () => {
       <div className="main-card-characters">
         <h1 className="characters-title">Star wars characters</h1>
         {characters.length === 0 && (
-          <div className="container-loading">
-            <h1 className="container-loading-two">
-              <strong>Loading</strong>
-            </h1>
+          <div className="container-loading-two">
+            <img className="img-loading" src={grogu} alt="R2 D2" />
+            <h1 className="title-loading-two">Loading</h1>
           </div>
         )}
         {characters.map((characters, index) => (
