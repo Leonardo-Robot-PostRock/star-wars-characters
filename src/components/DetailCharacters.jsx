@@ -1,7 +1,9 @@
 import React from "react";
+import useInitialState from "../hooks/useInitialState";
 import "../styles/DetailCharacters.css";
 
 const DetailCharacters = ({ results }) => {
+  const { handleClick } = useInitialState();
   return (
     <div className="card-characters">
       <ul className="card-characters__ul">

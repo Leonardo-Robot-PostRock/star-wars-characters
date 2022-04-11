@@ -8,11 +8,11 @@
 }
 
 .card-characters__ul {
+    display: grid;
     height: max-content;
     align-items: center;
     padding: 0;
-    display: grid;
-    grid-template-columns: 15rem 20rem;
+    grid-template-columns: 14rem 14rem;
     background-color: var(color--bg);
     gap: 1rem;
 
@@ -22,4 +22,10 @@
     justify-self: center;
     list-style: none;
     color: var(--yellow-title-sw);
+}
+
+@media (max-width: 768px) {
+    .card-characters__ul {
+        grid-template-columns: 14rem;
+    }
 }

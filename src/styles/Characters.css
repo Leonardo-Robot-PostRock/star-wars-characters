@@ -39,11 +39,12 @@
 }
 
 .characters-title {
+  display: flex;
   justify-self: center;
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   position: relative;
   color: var(--yellow-title-sw);
   font-weight: 300;

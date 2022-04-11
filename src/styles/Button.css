@@ -3,10 +3,22 @@
     color: var(--yellow-title-sw);
     font-weight: var(--weigth);
     border-radius: 0.4rem;
-    border: none;
     height: 2rem;
     width: 10rem;
     cursor: pointer;
     justify-self: center;
     align-self: center;
+    border-color: var(--color-bg);
+}
+
+.button:hover {
+    border: solid 0.1px;
+    border-color: var(--white-saber);
+    transition: 0.9s;
+}
+
+.button:active {
+    background-color: var(--white-saber);
+    color: var(--black);
+    transition: 0.9s;
 }

@@ -12,6 +12,7 @@
 
 .sw {
     text-align: center;
+    letter-spacing: 0.2rem;
     font-size: var(--lg);
     padding: 1rem;
     background-color: var(--color-bg);

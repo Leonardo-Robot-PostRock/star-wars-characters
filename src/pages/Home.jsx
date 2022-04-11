@@ -11,9 +11,7 @@ const Home = () => {
 
   return (
     <div className="main-container bg-image">
-      <h1 className="sw">
-    Star wars films
-      </h1>
+      <h1 className="sw">STAR WARS FILMS</h1>
       {movies.length === 0 && (
         <div className="container-loading-one">
           <div className="container-loading">
