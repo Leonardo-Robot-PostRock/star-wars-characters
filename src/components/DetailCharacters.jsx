@@ -4,7 +4,7 @@ import "../styles/DetailCharacters.css";
 const DetailCharacters = ({ results }) => {
   return (
     <div className="card-characters">
-      <ul>
+      <ul className="card-characters__ul">
         <li className="card-characters__li" key={results.id}>
           Nombre: {results.name}
         </li>

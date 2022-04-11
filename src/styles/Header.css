@@ -3,10 +3,10 @@
 .main-nav {
     display: flex;
     height: 4rem;
-    background-color: black;
+    background-color: var(--color-bg);
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navigation {
@@ -67,7 +67,13 @@
 @media (max-width: 576px) {
     .navbar-right{
         margin-left: 0;
+        padding-left: 1rem;
     }
+
+    .navigation {
+        margin-left: 1rem;
+    }
+
     .Link{
         padding: 0.5rem;
     }

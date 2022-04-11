@@ -21,8 +21,8 @@ const Characters = () => {
   const characters = useGetData(API);
   const slidePresentationTime = 3000;
   const [currentSlide, setCurrentSlide] = useState(0);
-
   let sliderInterval = useRef();
+
   useEffect(() => {
     sliderInterval = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % images.length);
@@ -34,8 +34,6 @@ const Characters = () => {
   return (
     <div className="main-container">
       <div className="content">
-        <h1 className="characters-title">Star wars characters</h1>
-
         {images.map((image, index) => (
           <img
             id={index}
@@ -50,6 +48,7 @@ const Characters = () => {
         ))}
       </div>
       <div className="main-card-characters">
+        <h1 className="characters-title">Star wars characters</h1>
         {characters.length === 0 && (
           <div className="container-loading">
             <h1 className="container-loading-two">

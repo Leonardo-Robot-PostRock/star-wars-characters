@@ -1,11 +1,10 @@
 @import url(vars.css);
 
+
+
+
 ::-webkit-scrollbar {
   display: none;
-}
-
-.main-container {
-  height: max-content;
 }
 
 .content {
@@ -34,13 +33,29 @@
   opacity: 1;
 }
 
+.main-card-characters {
+  position: relative;
+  top: 4rem;
+  background-color: var(--color-bg);
+  display: grid;
+  flex-direction: column;
+}
+
 .characters-title {
+  justify-self: center;
+  justify-content: center;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
   color: var(--yellow-title-sw);
   font-weight: 300;
-  margin: 0;
+  margin-top: 0;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .image {
+    object-fit: cover;
+  }
 }
