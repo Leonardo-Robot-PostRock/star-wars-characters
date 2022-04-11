@@ -36,6 +36,7 @@
     color: var(--yellow-title-sw);
     letter-spacing: 0.1rem;
     text-align: center;
+    padding: 1rem;
 }
 
 @media screen and (max-width: 800px) {

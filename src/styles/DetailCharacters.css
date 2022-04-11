@@ -1,31 +1,57 @@
 @import url(vars.css);
 
-.card-characters {
-    display: flex;
+.card-container {
+    display: grid;
+    justify-self: center;
+    width: max-content;
+    grid-template-columns: 16rem 14rem;
+    gap: 1rem;
+    margin: 1rem;
+    border: solid 0.1rem var(--white-saber);
+}
+
+.card-name__li {
+    display: inline-block;
+    list-style: none;
+    color: var(--yellow-title-sw);
+    display: grid;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    justify-self: center;
 }
 
-.card-characters__ul {
+
+.card-name__ul {
     display: grid;
-    height: max-content;
     align-items: center;
     padding: 0;
-    grid-template-columns: 14rem 14rem;
     background-color: var(color--bg);
-    gap: 1rem;
 
 }
 
-.card-characters__li {
-    justify-self: center;
+.container-properties {
+    display: grid;
+    gap: 1rem;
+    place-content: center;
+    padding: 0.5rem;
+}
+
+.card-detail {
+    padding: 0;
+}
+
+.card-detail__li {
+    display: grid;
+    place-content: center;
     list-style: none;
+    letter-spacing: 0.02rem;
+    text-align: center;
     color: var(--yellow-title-sw);
 }
 
 @media (max-width: 768px) {
-    .card-characters__ul {
+    .card-container {
         grid-template-columns: 14rem;
+        gap: 1rem
     }
 }
