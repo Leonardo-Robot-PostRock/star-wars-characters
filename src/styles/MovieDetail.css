@@ -33,6 +33,7 @@
 }
 
 .description {
+    align-items: center;
     color: var(--yellow-title-sw);
     letter-spacing: 0.1rem;
     text-align: center;

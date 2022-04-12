@@ -1,4 +1,5 @@
 .button {
+    align-self: center;
     background-color: var(--color-bg);
     border-color: var(--color-bg);
     border-radius: 0.4rem;
@@ -7,6 +8,7 @@
     font-weight: var(--weigth);
     height: 2rem;
     justify-self: center;
+    margin-top: 1rem;
     width: 10rem;
 }
 
