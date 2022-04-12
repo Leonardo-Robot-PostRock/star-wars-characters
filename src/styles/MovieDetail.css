@@ -46,6 +46,13 @@
     }
 
     .ul-list {
+        text-align: center;
         justify-self: center;
+    }
+}
+
+@media (max-width: 280px){
+    .ul-list {
+        width: 90%;
     }
 }

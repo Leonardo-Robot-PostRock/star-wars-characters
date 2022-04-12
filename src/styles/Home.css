@@ -57,3 +57,9 @@
         grid-template-columns: repeat(1, 20rem, 25rem);
     }
 }
+
+@media screen and (min-width: px) {
+    .bg-image {
+        grid-template-columns: repeat(1, 20rem, 25rem);
+    }
+}

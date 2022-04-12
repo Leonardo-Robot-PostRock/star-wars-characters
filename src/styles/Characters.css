@@ -21,8 +21,8 @@
   opacity: 0;
   overflow: hidden;
   position: fixed;
-  top: 0;
   transition: opacity 1s ease;
+  top: 0;
   width: 100vw;
 }
 
@@ -31,11 +31,12 @@
 }
 
 .main-card-characters {
-  width: 100%;
+  display: grid;
+  height: max-content;
+  flex-direction: column;
   position: absolute;
   top: 4rem;
-  display: grid;
-  flex-direction: column;
+  width: 100%;
 }
 
 .characters-title {
@@ -74,12 +75,6 @@
 .img-loading {
   justify-self: center;
   width: 4rem;
-}
-
-@media (min-width: 820px ) {
-  .main-card-characters {
-    height: 100vh;
-  }
 }
 
 @media (min-width: 768px) {

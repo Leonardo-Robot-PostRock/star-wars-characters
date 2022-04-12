@@ -5,7 +5,7 @@
     border: solid 0.1rem var(--white-saber);
     display: grid;
     justify-self: center;
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: 16rem 14rem;
     margin: 1rem 0;
     width: max-content;
