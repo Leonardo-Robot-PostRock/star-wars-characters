@@ -1,10 +1,9 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React from "react";
+import React,{ useEffect, useRef, useState } from "react";
 import DetailCharacters from "../components/DetailCharacters";
 import grogu from "../assets/img/grogu.png";
 import "../styles/Characters.css";
 import useGetData from "../utils/useGetData";
-import { useEffect, useRef, useState } from "react";
 
 const API = process.env.REACT_APP_CHARACTERS;
 
