@@ -18,6 +18,8 @@
   display: block;
   height: 100vh;
   left: 0;
+  min-height: 66.9rem;
+  min-width: 28rem;
   opacity: 0;
   overflow: hidden;
   position: fixed;

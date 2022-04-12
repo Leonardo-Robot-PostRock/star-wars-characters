@@ -3,7 +3,8 @@ import github from "../assets/icons/github.svg";
 import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
-const githubRepo = "https://github.com/Leonardo-Robot-PostRock?tab=repositories";
+const githubRepo =
+  "https://github.com/Leonardo-Robot-PostRock?tab=repositories";
 
 const Header = () => {
   return (
@@ -31,5 +32,4 @@ const Header = () => {
     </nav>
   );
 };
-
 export default Header;
