@@ -15,6 +15,8 @@ const images = [
   "https://i.imgur.com/t20fphJ.jpeg",
   "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   "https://images.unsplash.com/photo-1608346128025-1896b97a6fa7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+  "https://fondosmil.com/fondo/49883.png",
+  "https://img5.goodfon.com/wallpaper/nbig/5/e2/mike-capprotti-by-mike-capprotti-risunok-star-wars-art-zvezd.jpg",
 ];
 
 const Characters = () => {
