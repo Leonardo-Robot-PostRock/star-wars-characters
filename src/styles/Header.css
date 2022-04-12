@@ -4,9 +4,8 @@
     background-color: var(--color-bg);
     display: flex;
     height: 4rem;
-    min-width:  28rem;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 2;
 }
 
@@ -15,7 +14,7 @@
     display: flex;
     margin: 0;
     padding: 0;
-    width: max-content;
+    width: 100%;
 }
 
 .Link {
@@ -76,12 +75,12 @@
 }
 
 @media (max-width: 280px) {
-    
     .container-github{
         width: 100%;
     }
     .navbar-right{
         margin-left: 0;
+        justify-self: flex-end !important;
         width: 4.4rem
     }
     .Link{
