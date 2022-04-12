@@ -35,5 +35,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/91f3a347-0056-4195-92e4-2e5c5f6c1f2a/deploy-status)](https://app.netlify.com/sites/chic-gumption-b8db6c/deploys)\r # Getting Started with Create React App",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonardo-Robot-PostRock/star-wars-characters.git"
+  },
+  "keywords": [
+    "challenge"
+  ],
+  "author": "Leonardo Puebla <leonardo38361@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leonardo-Robot-PostRock/star-wars-characters/issues"
+  },
+  "homepage": "https://github.com/Leonardo-Robot-PostRock/star-wars-characters#readme"
 }
