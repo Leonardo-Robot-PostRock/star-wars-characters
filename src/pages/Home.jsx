@@ -10,7 +10,7 @@ const Home = () => {
   const movies = useGetData(API);
 
   return (
-    <div className="main-container bg-image">
+    <div className="bg-image">
       <h1 className="sw">STAR WARS FILMS</h1>
       {movies.length === 0 && (
         <div className="container-loading-one">

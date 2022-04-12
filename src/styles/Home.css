@@ -3,8 +3,8 @@
 .bg-image {
     display: flex;
     background-image: url("../assets/img/wars.jpg");
-    background-size: "cover";
     background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
     height: max-content;
     flex-direction: column;
@@ -14,16 +14,13 @@
     text-align: center;
     letter-spacing: 0.2rem;
     font-size: var(--lg);
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--color-bg);
     margin-top: 4rem;
     margin-bottom: 0;
     color: var(--yellow-title-sw);
     font-weight: var(--weigth);
     justify-self: center;
-}
-
-.card-films {
     background-color: var(--color-bg);
 }
 

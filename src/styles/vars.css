@@ -1,17 +1,17 @@
 :root {
-    --yellow-title-sw: #fccc10;
     --black: #000000;
-    --yellow-saber: #fafc12;
-    --red-saber: #f43a2b;
-    --green-saber: ##12974d;
-    --blue-saber: #00a0ff;
-    --white-saber: #ffffff;
-    --sm: 1.4rem;
-    --md: 1.6rem;
-    --lg: 1.8rem;
-    --font: 'New Cycle', sans-serif;
-    --weigth: 400;
     --color-bg: rgba(0, 0, 0, 0.8);
+    --blue-saber: #00a0ff;
+    --font: 'New Cycle', sans-serif;
+    --green-saber: ##12974d;
+    --lg: 1.8rem;
+    --md: 1.6rem;
+    --red-saber: #f43a2b;
+    --sm: 1.4rem;
+    --yellow-saber: #fafc12;
+    --yellow-title-sw: #fccc10;
+    --weigth: 400;
+    --white-saber: #ffffff;
 }
 
 body {

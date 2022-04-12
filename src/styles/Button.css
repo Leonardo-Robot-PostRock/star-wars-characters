@@ -1,14 +1,13 @@
 .button {
     background-color: var(--color-bg);
-    color: var(--yellow-title-sw);
-    font-weight: var(--weigth);
-    border-radius: 0.4rem;
-    height: 2rem;
-    width: 10rem;
-    cursor: pointer;
-    justify-self: center;
-    align-self: center;
     border-color: var(--color-bg);
+    border-radius: 0.4rem;
+    color: var(--yellow-title-sw);
+    cursor: pointer;
+    font-weight: var(--weigth);
+    height: 2rem;
+    justify-self: center;
+    width: 10rem;
 }
 
 .button:hover {

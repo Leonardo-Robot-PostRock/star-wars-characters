@@ -1,46 +1,45 @@
 @import url(vars.css);
 
 .main-nav {
+    background-color: var(--color-bg);
     display: flex;
     height: 4rem;
-    background-color: var(--color-bg);
     position: fixed;
     width: 100%;
     z-index: 2;
 }
 
 .navigation {
+    align-items: center;
     display: flex;
     margin: 0;
     padding: 0;
     width: max-content;
-    align-items: center;
-    color: var(--yellow);
 }
 
 .Link {
     color: var(--yellow-saber);
-    text-decoration: none;
     font-family: var(--font);
     font-size: var(--sm);
     font-weight: 400;
     padding: 1rem;
+    text-decoration: none;
 }
 
 .navbar-right {
-    display: flex;
-    width: 100%;
-    justify-content: end;
     align-items: center;
+    display: flex;
     height: 4rem;
+    justify-content: end;
     margin: 0;
+    width: 100%;
 }
 
 .githubRepo {
+    align-items: center;
     display: flex;
     height: 4rem;
     justify-content: center;
-    align-items: center;
 }
 
 .container-github {
@@ -66,8 +65,8 @@
 
 @media (max-width: 576px) {
     .navbar-right{
-        margin-left: 0;
         padding-left: 1rem;
+        margin-left: 0;
     }
 
     .navigation {

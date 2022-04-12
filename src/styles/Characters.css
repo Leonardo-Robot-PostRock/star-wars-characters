@@ -5,25 +5,25 @@
 }
 
 .content {
-  padding: 0 1.5em;
+  align-items: center;
   box-sizing: border-box;
-  z-index: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 0 1.5em;
+  z-index: 1;
 }
 
 .image {
-  position: fixed;
-  left: 0;
-  top: 0;
-  overflow: hidden;
-  display: block;
-  width: 100vw;
   object-fit: fill;
+  display: block;
   height: 100vh;
-  transition: opacity 1s ease;
+  left: 0;
   opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  transition: opacity 1s ease;
+  width: 100vw;
 }
 
 .active {
@@ -31,49 +31,55 @@
 }
 
 .main-card-characters {
-  position: relative;
+  width: 100%;
+  position: absolute;
   top: 4rem;
-  background-color: var(--color-bg);
   display: grid;
   flex-direction: column;
 }
 
 .characters-title {
-  justify-self: center;
-  justify-content: center;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  position: relative;
+  background-color: var(--color-bg);
+  border-radius: 1rem;
   color: var(--yellow-title-sw);
   font-weight: 300;
-  margin-top: 0;
-  padding: 0;
+  justify-self: center;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem;
+  margin: 1rem ;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .container-loading-two {
+  align-items: center;
+  background-color: var(--color-bg);
+  border: solid 0.1rem var(--yellow-saber);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
   position: absolute;
   top: 15rem;
-  display: flex;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
   width: 18rem;
-  border: outset 0.1rem var(--yellow-saber);
-  background-color: var(--color-bg);
-  border-radius: 50%;
 }
 
 .title-loading-two {
-  padding: 1rem;
+  color: var(--yellow-title-sw);
   font-weight: var(--weigth);
   text-align: center;
-  color: var(--yellow-title-sw);
+  padding: 1rem;
 }
 
 .img-loading {
   justify-self: center;
   width: 4rem;
+}
+
+@media (min-width: 820px ) {
+  .main-card-characters {
+    height: 100vh;
+  }
 }
 
 @media (min-width: 768px) {

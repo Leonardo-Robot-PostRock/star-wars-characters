@@ -11,7 +11,7 @@
 .ul-list {
     display: flex;
     flex-direction: column;
-    grid-gap: 1rem;
+    grid-gap: 0.5rem;
     place-content: center;
     list-style-type: none;
     padding: 0.2rem;
@@ -29,7 +29,7 @@
 .container-description {
     display: grid;
     justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .description {

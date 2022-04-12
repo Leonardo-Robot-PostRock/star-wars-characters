@@ -1,39 +1,37 @@
 @import url(vars.css);
 
 .card-container {
+    background-color: var(--color-bg);
+    border: solid 0.1rem var(--white-saber);
     display: grid;
     justify-self: center;
-    width: max-content;
-    grid-template-columns: 16rem 14rem;
     gap: 1rem;
-    margin: 1rem;
-    border: solid 0.1rem var(--white-saber);
+    grid-template-columns: 16rem 14rem;
+    margin: 1rem 0;
+    width: max-content;
 }
 
 .card-name__li {
-    display: inline-block;
-    list-style: none;
+    align-items: center;
     color: var(--yellow-title-sw);
     display: grid;
-    text-align: center;
     justify-content: center;
-    align-items: center;
+    list-style: none;
+    text-align: center;
 }
 
 
 .card-name__ul {
-    display: grid;
     align-items: center;
+    display: grid;
     padding: 0;
-    background-color: var(color--bg);
-
 }
 
 .container-properties {
     display: grid;
     gap: 1rem;
-    place-content: center;
     padding: 0.5rem;
+    place-content: center;
 }
 
 .card-detail {
@@ -41,17 +39,17 @@
 }
 
 .card-detail__li {
-    display: grid;
-    place-content: center;
-    list-style: none;
-    letter-spacing: 0.02rem;
-    text-align: center;
     color: var(--yellow-title-sw);
+    display: grid;
+    letter-spacing: 0.02rem;
+    list-style: none;
+    place-content: center;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .card-container {
+        gap: 1rem;
         grid-template-columns: 14rem;
-        gap: 1rem
     }
 }
